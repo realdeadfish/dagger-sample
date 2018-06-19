@@ -3,7 +3,7 @@
     package="com.example.featurea">
 
     <application>
-        <activity android:name=".GreetingActivity">
+        <activity android:name=".greeter.GreetingAActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
