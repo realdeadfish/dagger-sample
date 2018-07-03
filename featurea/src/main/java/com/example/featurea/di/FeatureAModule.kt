@@ -10,7 +10,7 @@ internal class FeatureAModule {
 
     @Module
     interface BindingModule {
-        @ContributesAndroidInjector
+        @ContributesAndroidInjector(modules = [GreetingAModule::class])
         @ActivityScope
         fun greetingAActivity(): GreetingAActivity
     }

@@ -14,4 +14,9 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"/>
 
+    <fragment class="com.example.featureb.greeter.GreetingBFragment"
+              android:layout_height="wrap_content"
+              android:layout_width="match_parent"
+              android:id="@+id/greetingFragment"/>
+
 </android.support.constraint.ConstraintLayout>

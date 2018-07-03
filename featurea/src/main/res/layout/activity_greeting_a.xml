@@ -17,4 +17,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
 
+    <fragment class="com.example.featureb.greeter.GreetingBFragment"
+              android:layout_height="wrap_content"
+              android:layout_width="match_parent"
+              android:id="@+id/greetingFragment"/>
+
 </LinearLayout>

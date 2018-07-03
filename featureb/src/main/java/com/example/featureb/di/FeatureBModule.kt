@@ -2,6 +2,7 @@ package com.example.featureb.di
 
 import com.example.common.di.ActivityScope
 import com.example.featureb.greeter.GreetingBActivity
+import com.example.featureb.greeter.GreetingBFragment
 import dagger.Module
 import dagger.android.ContributesAndroidInjector
 
@@ -13,5 +14,9 @@ internal class FeatureBModule {
         @ContributesAndroidInjector
         @ActivityScope
         fun greetingBActivity(): GreetingBActivity
+
+        @ContributesAndroidInjector
+        @ActivityScope
+        fun greetingBFragment(): GreetingBFragment
     }
 }
